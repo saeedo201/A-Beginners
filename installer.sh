@@ -26,9 +26,11 @@ echo ""
 #--------------------------------------------------
 #--------------------------------------------------
 #echo -e "$blue"
-echo "               [A] installations"
-echo "               [B] move files to Home"
-echo "               [C] move files to Sdcard"
+echo "               [A] Installations"
+echo "               [B] Move files to Home"
+echo "               [C] Move files to Sdcard"
+echo "               [D] Create a backup copy"
+echo "               [E] Retrieving the backup version"
 echo ""
 read -p " number =======>" type
 if [ "$type" = "A" ]
@@ -316,5 +318,33 @@ echo ""
 echo -e $cyan "DONE"
 sleep 2
 cd A-Beginners
+bash installer.sh
+fi
+#-----------------------------------
+#-----------------------------------
+#-----------------------------------
+echo ""
+if [ "$type" = "D" ]
+then
+echo -e $p "Welcome To In The Backup"
+echo ""
+cd /data/data/com.termux/files
+tar -cvzf /sdcard/buckup-termux.tgz home usr
+echo -e $cyan "DONE"
+cd $HOME && cd A-Beginners
+bash installer.sh
+fi
+#-----------------------------------
+#-----------------------------------
+#-----------------------------------
+echo ""
+if [ "$type" = "E" ]
+then
+echo -e $p "Welcome To In Retrieving The Backup"
+echo ""
+cd /data/data/com.termux/files
+tar -xvzf /sdcard/buckup-termux.tgz home usr
+echo -e $cyan "DONE"
+cd $HOME && cd A-Beginners
 bash installer.sh
 fi
