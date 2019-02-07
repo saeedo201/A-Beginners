@@ -27,8 +27,8 @@ echo ""
 #--------------------------------------------------
 #echo -e "$blue"
 echo "               [A] installations"
-echo "               [B] mv files to Home"
-echo "               [C] mv files to Sdcard"
+echo "               [B] move files to Home"
+echo "               [C] move files to Sdcard"
 echo ""
 read -p " number =======>" type
 if [ "$type" = "A" ]
