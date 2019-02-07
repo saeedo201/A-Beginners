@@ -26,7 +26,13 @@ echo ""
 #--------------------------------------------------
 #--------------------------------------------------
 #echo -e "$blue"
-ifconfig wlan0 | grep -o 192..........
+echo "               [A] installations"
+echo "               [B] mv files to Home"
+echo "               [C] mv files to Sdcard"
+echo ""
+read -p " number =======>" type
+if [ "$type" = "A" ]
+then
 #echo -e "$green "
 #date
 echo -e "$yellow"
@@ -277,5 +283,38 @@ then
 apt install proot -y
 echo -e $cyan " Done"
 sleep 3
+bash installer.sh
+fi
+#------------------------------------
+#------------------------------------
+fi
+#-----------------------------------
+if [ "$type" = "B" ]
+then
+echo -e $cyan   "Now Can U Move Any Files To Home"
+cd /sdcard
+echo -e $green "Please Insert Name"
+read -p "                     Name=====>" Name
+mv $Name $HOME
+echo ""
+echo -e $cyan "DONE"
+sleep 2
+cd $HOME && cd A-Beginners
+bash installer.sh
+fi
+#------------------------------------
+#------------------------------------
+#------------------------------------
+if [ "$type" = "C" ]
+then
+echo -e $cyan   "Now Can U Move Any Files To Sdcard"
+cd $HOME
+echo -e $green "Please Insert Name"
+read -p "                     Name=====>" Name
+mv $Name /sdcard
+echo ""
+echo -e $cyan "DONE"
+sleep 2
+cd A-Beginners
 bash installer.sh
 fi
