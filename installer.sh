@@ -31,6 +31,7 @@ echo "               [B] Move files to Home"
 echo "               [C] Move files to Sdcard"
 echo "               [D] Create a backup copy"
 echo "               [E] Retrieving the backup version"
+echo "               [F] Themes"
 echo ""
 read -p " number =======>" type
 if [ "$type" = "A" ]
@@ -79,210 +80,210 @@ read -p "     number------->  " Zoal
 #--------------------------------------------------
 if [ $Zoal -eq 1 ]
 then
-apt install figlet -y
+pkg install figlet -y
 echo -e $cyan " Done"
 sleep 3
 bash installer.sh
 fi
 if [ $Zoal -eq 2 ]
 then
-apt install sl -y
+pkg install sl -y
 echo -e $cyan " Done"
 sleep 3
 bash installer.sh
 fi
 if [ $Zoal -eq 3 ]
 then
-apt install nano -y
+pkg install nano -y
 echo -e $cyan " Done"
 sleep 3
 bash installer.sh
 fi
 if [ $Zoal -eq 4 ]
 then
-apt install pytho -y
+pkg install python -y
 echo -e $cyan " Done"
 sleep 3
 bash installer.sh
 fi
 if [ $Zoal -eq 5 ]
 then
-apt install pytho2 -y
+pkg install python2 -y
 echo -e $cyan " Done"
 sleep 3
 bash installer.sh
 fi
 if [ $Zoal -eq 6 ]
 then
-apt install pytho3 -y
+pkg install python3 -y
 echo -e $cyan " Done"
 sleep 3
 bash installer.sh
 fi
 if [ $Zoal -eq 7 ]
 then
-apt install perl -y
+pkg install perl -y
 echo -e $cyan " Done"
 sleep 3
 bash installer.sh
 fi
 if [ $Zoal -eq 8 ]
 then
-apt install ruby -y
+pkg install ruby -y
 echo -e $cyan " Done"
 sleep 3
 bash installer.sh
 fi
 if [ $Zoal -eq 9 ]
 then
-apt install nmap -y
+pkg install nmap -y
 echo -e $cyan " Done"
 sleep 3
 bash installer.sh
 fi
 if [ $Zoal -eq 10 ]
 then
-apt install php -y
+pkg install php -y
 echo -e $cyan " Done"
 sleep 3
 bash installer.sh
 fi
 if [ $Zoal -eq 11 ]
 then
-apt install openssl -y
+pkg install openssl -y
 echo -e $cyan " Done"
 sleep 3
 bash installer.sh
 fi
 if [ $Zoal -eq 12 ]
 then
-apt install openssh -y
+pkg install openssh -y
 echo -e $cyan " Done"
 sleep 3
 bash installer.sh
 fi
 if [ $Zoal -eq 13 ]
 then
-apt install curl -y
+pkg install curl -y
 echo -e $cyan " Done"
 sleep 3
 bash installer.sh
 fi
 if [ $Zoal -eq 14 ]
 then
-apt install get -y
+pkg install get -y
 echo -e $cyan " Done"
 sleep 3
 bash installer.sh
 fi
 if [ $Zoal -eq 15 ]
 then
-apt install git -y
+pkg install git -y
 echo -e $cyan " Done"
 sleep 3
 bash installer.sh
 fi
 if [ $Zoal -eq 16 ]
 then
-apt install cowsay -y
+pkg install cowsay -y
 echo -e $cyan " Done"
 sleep 3
 bash installer.sh
 fi
 if [ $Zoal -eq 17 ]
 then
-apt install apache2 -y
+pkg install apache2 -y
 echo -e $cyan " Done"
 sleep 3
 bash installer.sh
 fi
 if [ $Zoal -eq 18 ]
 then
-apt install w3m -y
+pkg install w3m -y
 echo -e $cyan " Done"
 sleep 3
 bash installer.sh
 fi
 if [ $Zoal -eq 19 ]
 then
-apt install bash -y
+pkg install bash -y
 echo -e $cyan " Done"
 sleep 3
 bash installer.sh
 fi
 if [ $Zoal -eq 20 ]
 then
-apt install clang -y
+pkg install clang -y
 echo -e $cyan " Done"
 sleep 3
 bash installer.sh
 fi
 if [ $Zoal -eq 21 ]
 then
-apt install macchanger -y
+pkg install macchanger -y
 echo -e $cyan " Done"
 sleep 3
 bash installer.sh
 fi
 if [ $Zoal -eq 22 ]
 then
-apt install tar -y
+pkg install tar -y
 echo -e $cyan " Done"
 sleep 3
 bash installer.sh
 fi
 if [ $Zoal -eq 23 ]
 then
-apt install zip -y
+pkg install zip -y
 echo -e $cyan " Done"
 sleep 3
 bash installer.sh
 fi
 if [ $Zoal -eq 24 ]
 then
-apt install unzip -y
+pkg install unzip -y
 echo -e $cyan " Done"
 sleep 3
 bash installer.sh
 fi
 if [ $Zoal -eq 25 ]
 then
-apt install tor -y
+pkg install tor -y
 echo -e $cyan " Done"
 sleep 3
 bash installer.sh
 fi
 if [ $Zoal -eq 26 ]
 then
-apt install wget -y
+pkg install wget -y
 echo -e $cyan " Done"
 sleep 3
 bash installer.sh
 fi
 if [ $Zoal -eq 27 ]
 then
-apt install sudo -y
+pkg install sudo -y
 echo -e $cyan " Done"
 sleep 3
 bash installer.sh
 fi
 if [ $Zoal -eq 28 ]
 then
-apt install wclac -y
+pkg install wclac -y
 echo -e $cyan " Done"
 sleep 3
 bash installer.sh
 fi
 if [ $Zoal -eq 29 ]
 then
-apt install bmon -y
+pkg install bmon -y
 echo -e $cyan " Done"
 sleep 3
 bash installer.sh
 fi
 if [ $Zoal -eq 30 ]
 then
-apt install proot -y
+pkg install proot -y
 echo -e $cyan " Done"
 sleep 3
 bash installer.sh
@@ -347,4 +348,44 @@ tar -xvzf /sdcard/buckup-termux.tgz home usr
 echo -e $cyan "DONE"
 cd $HOME && cd A-Beginners
 bash installer.sh
+fi
+#------------------------------------
+#------------------------------------
+#------------------------------------
+echo ""
+if [ "$type" = "F" ]
+then
+echo -e $p "Welcome To In Themes"
+echo ""
+
+echo -e "$reset"
+echo "             [1]Change the Theme of Termux????"
+echo "             [2]Download nano python fish git????????? "
+echo "             [3]The Theme of the skull Termux????"
+echo "             [4]The Theme of the skull(2) Termux????"
+echo -e "$green"
+read -p "     number------->  " al
+if [ "$al" -eq "1"  ]; then
+echo -e $cyan "Please Insert Your Name :>"
+read -p   "                        Name=====>" Name
+figlet $Name
+sed "s/Sniper/$ali/A-Beginners/" $HOME/.bashrc > $HOME/.bashrc
+fi
+if [ "$al" -eq "2"  ]; then
+apt $n nano -y &&  apt $n wgit -y && apt $n fish -y
+fi
+if [ "$al" -eq "3"  ]; then
+cd
+rm $HOME/.bashrc
+rm ../usr/etc/bash.bashrc
+sed "s/max/$ali/" $HOME/A-Beginners/.max/bash.bashrc > ../usr/etc/bash.bashrc
+pkg install figlet
+fi
+if [ "$al" -eq "4"  ]; then
+cd
+rm $HOME/.bashrc
+rm ../usr/etc/bash.bashrc
+sed "s/YourSelF/$ali/" $HOME/A-Beginners/.max/PROVE-TM > $HOME/.bashrc
+pkg install figlet
+fi
 fi
