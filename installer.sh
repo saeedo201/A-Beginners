@@ -11,7 +11,7 @@ blue='\033[1;34m'
 purple='\033[1;35m'
 reset='\033[0m'
 y='\033[1;33m'
-
+n='install'
 echo -e "$green "
 figlet  -f big "           Helpfull Beginners "
 echo -e "$blue"
@@ -82,211 +82,241 @@ if [ $Zoal -eq 1 ]
 then
 pkg install figlet -y
 echo -e $cyan " Done"
-sleep 3
-bash installer.sh
+read -p "press [Enter] key to continue..."
+readEnterKey
+bash installer.sh && A
 fi
 if [ $Zoal -eq 2 ]
 then
 pkg install sl -y
 echo -e $cyan " Done"
-sleep 3
-bash installer.sh
+read -p "press [Enter] key to continue..."
+readEnterKey
+bash installer.sh && A
 fi
 if [ $Zoal -eq 3 ]
 then
 pkg install nano -y
 echo -e $cyan " Done"
-sleep 3
-bash installer.sh
+read -p "press [Enter] key to continue..."
+readEnterKey
+bash installer.sh && A
 fi
 if [ $Zoal -eq 4 ]
 then
 pkg install python -y
 echo -e $cyan " Done"
-sleep 3
-bash installer.sh
+read -p "press [Enter] key to continue..."
+readEnterKey
+bash installer.sh && A
 fi
 if [ $Zoal -eq 5 ]
 then
 pkg install python2 -y
 echo -e $cyan " Done"
-sleep 3
-bash installer.sh
+read -p "press [Enter] key to continue..."
+readEnterKey
+bash installer.sh && A
 fi
 if [ $Zoal -eq 6 ]
 then
 pkg install python3 -y
 echo -e $cyan " Done"
-sleep 3
-bash installer.sh
+read -p "press [Enter] key to continue..."
+readEnterKey
+bash installer.sh A
 fi
 if [ $Zoal -eq 7 ]
 then
 pkg install perl -y
 echo -e $cyan " Done"
-sleep 3
-bash installer.sh
+read -p "press [Enter] key to continue..."
+readEnterKey
+bash installer.sh && A
 fi
 if [ $Zoal -eq 8 ]
 then
 pkg install ruby -y
 echo -e $cyan " Done"
-sleep 3
-bash installer.sh
+read -p "press [Enter] key to continue..."
+readEnterKey
+bash installer.sh && A
 fi
 if [ $Zoal -eq 9 ]
 then
 pkg install nmap -y
 echo -e $cyan " Done"
-sleep 3
-bash installer.sh
+read -p "press [Enter] Key to continue..."
+readEnterKey
+bash installer.sh && A
 fi
 if [ $Zoal -eq 10 ]
 then
 pkg install php -y
 echo -e $cyan " Done"
-sleep 3
-bash installer.sh
+read -p "press [Enter] Key to continue..."
+readEnterKey
+bash installer.sh && A
 fi
 if [ $Zoal -eq 11 ]
 then
 pkg install openssl -y
 echo -e $cyan " Done"
-sleep 3
-bash installer.sh
+read -p "press [Enter] Key to continue..."
+readEnterKey
+bash installer.sh && A
 fi
 if [ $Zoal -eq 12 ]
 then
 pkg install openssh -y
 echo -e $cyan " Done"
-sleep 3
-bash installer.sh
+read -p "press [Enter] Key to continue..."
+readEnterKey
+bash installer.sh && A
 fi
 if [ $Zoal -eq 13 ]
 then
 pkg install curl -y
 echo -e $cyan " Done"
-sleep 3
-bash installer.sh
+read -p "press [Enter] Key to continue..."
+readEnterKey
+bash installer.sh && A
 fi
 if [ $Zoal -eq 14 ]
 then
 pkg install get -y
 echo -e $cyan " Done"
-sleep 3
-bash installer.sh
+read -p "press [Enter] Key to continue..."
+readEnterKey
+bash installer.sh && A
 fi
 if [ $Zoal -eq 15 ]
 then
 pkg install git -y
 echo -e $cyan " Done"
-sleep 3
-bash installer.sh
+read -p "press [Enter] Key to continue..."
+readEnterKey
+bash installer.sh && A
 fi
 if [ $Zoal -eq 16 ]
 then
 pkg install cowsay -y
 echo -e $cyan " Done"
-sleep 3
-bash installer.sh
+read -p "press [Enter] Key to continue..."
+readEnterKey
+bash installer.sh && A
 fi
 if [ $Zoal -eq 17 ]
 then
 pkg install apache2 -y
 echo -e $cyan " Done"
-sleep 3
-bash installer.sh
+read -p "press [Enter] Key to continue..."
+readEnterKey
+bash installer.sh && A
 fi
 if [ $Zoal -eq 18 ]
 then
 pkg install w3m -y
 echo -e $cyan " Done"
-sleep 3
-bash installer.sh
+read -p "press [Enter] Key to continue..."
+readEnterKey
+bash installer.sh && A
 fi
 if [ $Zoal -eq 19 ]
 then
 pkg install bash -y
 echo -e $cyan " Done"
-sleep 3
-bash installer.sh
+read -p "press [Enter] Key to continue..."
+readEnterKey
+bash installer.sh && A
 fi
 if [ $Zoal -eq 20 ]
 then
 pkg install clang -y
 echo -e $cyan " Done"
-sleep 3
-bash installer.sh
+read -p "press [Enter] Key to continue..."
+readEnterKey
+bash installer.sh && A
 fi
 if [ $Zoal -eq 21 ]
 then
 pkg install macchanger -y
 echo -e $cyan " Done"
-sleep 3
-bash installer.sh
+read -p "press [Enter] Key to continue..."
+readEnterKey
+bash installer.sh && A
 fi
 if [ $Zoal -eq 22 ]
 then
 pkg install tar -y
 echo -e $cyan " Done"
-sleep 3
-bash installer.sh
+read -p "press [Enter] Key to continue..."
+readEnterKey
+bash installer.sh && A
 fi
 if [ $Zoal -eq 23 ]
 then
 pkg install zip -y
 echo -e $cyan " Done"
-sleep 3
-bash installer.sh
+read -p "press [Enter] Key to continue..."
+readEnterKey
+bash installer.sh && A
 fi
 if [ $Zoal -eq 24 ]
 then
 pkg install unzip -y
 echo -e $cyan " Done"
-sleep 3
-bash installer.sh
+read -p "press [Enter] Key to continue..."
+readEnterKey
+bash installer.sh && A
 fi
 if [ $Zoal -eq 25 ]
 then
 pkg install tor -y
 echo -e $cyan " Done"
-sleep 3
-bash installer.sh
+read -p "press [Enter] Key to continue..."
+readEnterKey
+bash installer.sh && A
 fi
 if [ $Zoal -eq 26 ]
 then
 pkg install wget -y
 echo -e $cyan " Done"
-sleep 3
-bash installer.sh
+read -p "press [Enter] Key to continue..."
+readEnterKey
+bash installer.sh && A
 fi
 if [ $Zoal -eq 27 ]
 then
 pkg install sudo -y
 echo -e $cyan " Done"
-sleep 3
-bash installer.sh
+read -p "press [Enter] Key to continue..."
+readEnterKey
+bash installer.sh && A
 fi
 if [ $Zoal -eq 28 ]
 then
 pkg install wclac -y
 echo -e $cyan " Done"
-sleep 3
-bash installer.sh
+read -p "press [Enter] Key to continue..."
+readEnterKey
+bash installer.sh && A
 fi
 if [ $Zoal -eq 29 ]
 then
 pkg install bmon -y
 echo -e $cyan " Done"
-sleep 3
-bash installer.sh
+read -p "press [Enter] Key to continue..."
+readEnterKey
+bash installer.sh && A
 fi
 if [ $Zoal -eq 30 ]
 then
 pkg install proot -y
 echo -e $cyan " Done"
-sleep 3
-bash installer.sh
+read -p "press [Enter] Key to continue..."
+readEnterKey
+bash installer.sh && A
 fi
 #------------------------------------
 #------------------------------------
@@ -301,7 +331,8 @@ read -p "                     Name=====>" Name
 mv $Name $HOME
 echo ""
 echo -e $cyan "DONE"
-sleep 2
+read -p "press [Enter] Key to continue..."
+readEnterKey
 cd $HOME && cd A-Beginners
 bash installer.sh
 fi
@@ -317,7 +348,8 @@ read -p "                     Name=====>" Name
 mv $Name /sdcard
 echo ""
 echo -e $cyan "DONE"
-sleep 2
+read -p "press [Enter] Key to continue..."
+readEnterKey
 cd A-Beginners
 bash installer.sh
 fi
@@ -332,6 +364,8 @@ echo ""
 cd /data/data/com.termux/files
 tar -cvzf /sdcard/buckup-termux.tgz home usr
 echo -e $cyan "DONE"
+read -p "press [Enter] Key to continue..."
+readEnterKey
 cd $HOME && cd A-Beginners
 bash installer.sh
 fi
@@ -346,6 +380,8 @@ echo ""
 cd /data/data/com.termux/files
 tar -xvzf /sdcard/buckup-termux.tgz home usr
 echo -e $cyan "DONE"
+read -p "press [Enter] Key to continue..."
+readEnterKey
 cd $HOME && cd A-Beginners
 bash installer.sh
 fi
@@ -361,31 +397,15 @@ echo ""
 echo -e "$reset"
 echo "             [1]Change the Theme of Termux????"
 echo "             [2]Download nano python fish git????????? "
-echo "             [3]The Theme of the skull Termux????"
-echo "             [4]The Theme of the skull(2) Termux????"
 echo -e "$green"
 read -p "     number------->  " al
 if [ "$al" -eq "1"  ]; then
-echo -e $cyan "Please Insert Your Name :>"
-read -p   "                        Name=====>" Name
-figlet $Name
-sed "s/Sniper/$ali/A-Beginners/" $HOME/.bashrc > $HOME/.bashrc
+pkg install cmatrix nano unzip -y
+cd A-Beginners
+mv Start-Hackers .bashrc
+nano .bashrc
 fi
 if [ "$al" -eq "2"  ]; then
 apt $n nano -y &&  apt $n wgit -y && apt $n fish -y
-fi
-if [ "$al" -eq "3"  ]; then
-cd
-rm $HOME/.bashrc
-rm ../usr/etc/bash.bashrc
-sed "s/max/$ali/" $HOME/A-Beginners/.max/bash.bashrc > ../usr/etc/bash.bashrc
-pkg install figlet
-fi
-if [ "$al" -eq "4"  ]; then
-cd
-rm $HOME/.bashrc
-rm ../usr/etc/bash.bashrc
-sed "s/YourSelF/$ali/" $HOME/A-Beginners/.max/PROVE-TM > $HOME/.bashrc
-pkg install figlet
 fi
 fi
