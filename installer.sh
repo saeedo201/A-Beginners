@@ -1,5 +1,4 @@
 clear
-
 #colors
 g='\033[1;32m'
 p='\033[1;35m'
@@ -12,8 +11,14 @@ purple='\033[1;35m'
 reset='\033[0m'
 y='\033[1;33m'
 n='install'
+read -p "Press Enter to start: "
+echo ""
+read -p "Please type your name: " name
+echo ""
+clear
+echo -e $p " Hi $name I wish you the best times with me "
+echo ""
 echo -e "$green "
-figlet  -f big "           Helpfull Beginners "
 echo -e "$blue"
 echo -e
 #--------------------------------------------------
@@ -36,6 +41,7 @@ echo ""
 read -p " number =======>" type
 if [ "$type" = "A" ]
 then
+clear
 #echo -e "$green "
 #date
 echo -e "$yellow"
@@ -81,6 +87,7 @@ read -p "     number------->  " Zoal
 if [ $Zoal -eq 1 ]
 then
 pkg install figlet -y
+echo ""
 echo -e $cyan " Done"
 read -p "press [Enter] key to continue..."
 readEnterKey
@@ -89,6 +96,7 @@ fi
 if [ $Zoal -eq 2 ]
 then
 pkg install sl -y
+echo ""
 echo -e $cyan " Done"
 read -p "press [Enter] key to continue..."
 readEnterKey
@@ -97,6 +105,7 @@ fi
 if [ $Zoal -eq 3 ]
 then
 pkg install nano -y
+echo ""
 echo -e $cyan " Done"
 read -p "press [Enter] key to continue..."
 readEnterKey
@@ -105,6 +114,7 @@ fi
 if [ $Zoal -eq 4 ]
 then
 pkg install python -y
+echo ""
 echo -e $cyan " Done"
 read -p "press [Enter] key to continue..."
 readEnterKey
@@ -113,6 +123,7 @@ fi
 if [ $Zoal -eq 5 ]
 then
 pkg install python2 -y
+echo ""
 echo -e $cyan " Done"
 read -p "press [Enter] key to continue..."
 readEnterKey
@@ -121,6 +132,7 @@ fi
 if [ $Zoal -eq 6 ]
 then
 pkg install python3 -y
+echo ""
 echo -e $cyan " Done"
 read -p "press [Enter] key to continue..."
 readEnterKey
@@ -129,6 +141,7 @@ fi
 if [ $Zoal -eq 7 ]
 then
 pkg install perl -y
+echo ""
 echo -e $cyan " Done"
 read -p "press [Enter] key to continue..."
 readEnterKey
@@ -137,6 +150,7 @@ fi
 if [ $Zoal -eq 8 ]
 then
 pkg install ruby -y
+echo ""
 echo -e $cyan " Done"
 read -p "press [Enter] key to continue..."
 readEnterKey
@@ -145,6 +159,7 @@ fi
 if [ $Zoal -eq 9 ]
 then
 pkg install nmap -y
+echo ""
 echo -e $cyan " Done"
 read -p "press [Enter] Key to continue..."
 readEnterKey
@@ -153,6 +168,7 @@ fi
 if [ $Zoal -eq 10 ]
 then
 pkg install php -y
+echo ""
 echo -e $cyan " Done"
 read -p "press [Enter] Key to continue..."
 readEnterKey
@@ -161,6 +177,7 @@ fi
 if [ $Zoal -eq 11 ]
 then
 pkg install openssl -y
+echo ""
 echo -e $cyan " Done"
 read -p "press [Enter] Key to continue..."
 readEnterKey
@@ -169,6 +186,7 @@ fi
 if [ $Zoal -eq 12 ]
 then
 pkg install openssh -y
+echo ""
 echo -e $cyan " Done"
 read -p "press [Enter] Key to continue..."
 readEnterKey
@@ -177,6 +195,7 @@ fi
 if [ $Zoal -eq 13 ]
 then
 pkg install curl -y
+echo ""
 echo -e $cyan " Done"
 read -p "press [Enter] Key to continue..."
 readEnterKey
@@ -185,6 +204,7 @@ fi
 if [ $Zoal -eq 14 ]
 then
 pkg install get -y
+echo ""
 echo -e $cyan " Done"
 read -p "press [Enter] Key to continue..."
 readEnterKey
@@ -193,6 +213,7 @@ fi
 if [ $Zoal -eq 15 ]
 then
 pkg install git -y
+echo ""
 echo -e $cyan " Done"
 read -p "press [Enter] Key to continue..."
 readEnterKey
@@ -201,6 +222,7 @@ fi
 if [ $Zoal -eq 16 ]
 then
 pkg install cowsay -y
+echo ""
 echo -e $cyan " Done"
 read -p "press [Enter] Key to continue..."
 readEnterKey
@@ -209,6 +231,7 @@ fi
 if [ $Zoal -eq 17 ]
 then
 pkg install apache2 -y
+echo ""
 echo -e $cyan " Done"
 read -p "press [Enter] Key to continue..."
 readEnterKey
@@ -217,6 +240,7 @@ fi
 if [ $Zoal -eq 18 ]
 then
 pkg install w3m -y
+echo ""
 echo -e $cyan " Done"
 read -p "press [Enter] Key to continue..."
 readEnterKey
@@ -225,6 +249,7 @@ fi
 if [ $Zoal -eq 19 ]
 then
 pkg install bash -y
+echo ""
 echo -e $cyan " Done"
 read -p "press [Enter] Key to continue..."
 readEnterKey
@@ -233,6 +258,7 @@ fi
 if [ $Zoal -eq 20 ]
 then
 pkg install clang -y
+echo ""
 echo -e $cyan " Done"
 read -p "press [Enter] Key to continue..."
 readEnterKey
@@ -241,6 +267,7 @@ fi
 if [ $Zoal -eq 21 ]
 then
 pkg install macchanger -y
+echo ""
 echo -e $cyan " Done"
 read -p "press [Enter] Key to continue..."
 readEnterKey
@@ -249,6 +276,7 @@ fi
 if [ $Zoal -eq 22 ]
 then
 pkg install tar -y
+echo ""
 echo -e $cyan " Done"
 read -p "press [Enter] Key to continue..."
 readEnterKey
@@ -257,6 +285,7 @@ fi
 if [ $Zoal -eq 23 ]
 then
 pkg install zip -y
+echo ""
 echo -e $cyan " Done"
 read -p "press [Enter] Key to continue..."
 readEnterKey
@@ -265,6 +294,7 @@ fi
 if [ $Zoal -eq 24 ]
 then
 pkg install unzip -y
+echo ""
 echo -e $cyan " Done"
 read -p "press [Enter] Key to continue..."
 readEnterKey
@@ -273,6 +303,7 @@ fi
 if [ $Zoal -eq 25 ]
 then
 pkg install tor -y
+echo ""
 echo -e $cyan " Done"
 read -p "press [Enter] Key to continue..."
 readEnterKey
@@ -281,6 +312,7 @@ fi
 if [ $Zoal -eq 26 ]
 then
 pkg install wget -y
+echo ""
 echo -e $cyan " Done"
 read -p "press [Enter] Key to continue..."
 readEnterKey
@@ -289,6 +321,7 @@ fi
 if [ $Zoal -eq 27 ]
 then
 pkg install sudo -y
+echo ""
 echo -e $cyan " Done"
 read -p "press [Enter] Key to continue..."
 readEnterKey
@@ -297,6 +330,7 @@ fi
 if [ $Zoal -eq 28 ]
 then
 pkg install wclac -y
+echo ""
 echo -e $cyan " Done"
 read -p "press [Enter] Key to continue..."
 readEnterKey
@@ -305,6 +339,7 @@ fi
 if [ $Zoal -eq 29 ]
 then
 pkg install bmon -y
+echo ""
 echo -e $cyan " Done"
 read -p "press [Enter] Key to continue..."
 readEnterKey
@@ -313,6 +348,7 @@ fi
 if [ $Zoal -eq 30 ]
 then
 pkg install proot -y
+echo ""
 echo -e $cyan " Done"
 read -p "press [Enter] Key to continue..."
 readEnterKey
@@ -324,9 +360,12 @@ fi
 #-----------------------------------
 if [ "$type" = "B" ]
 then
-echo -e $cyan   "Now Can U Move Any Files To Home"
+clear
+echo ""
+echo -e $cyan   "Now U Can  Move Any Files To Home"
 cd /sdcard
-echo -e $green "Please Insert Name"
+echo ""
+echo -e $green "Please Insert Name File"
 read -p "                     Name=====>" Name
 mv $Name $HOME
 echo ""
@@ -341,9 +380,10 @@ fi
 #------------------------------------
 if [ "$type" = "C" ]
 then
-echo -e $cyan   "Now Can U Move Any Files To Sdcard"
+clear
+echo -e $cyan   "Now U Can  Move Any Files To Sdcard"
 cd $HOME
-echo -e $green "Please Insert Name"
+echo -e $green "Please Insert Name File"
 read -p "                     Name=====>" Name
 mv $Name /sdcard
 echo ""
@@ -359,10 +399,12 @@ fi
 echo ""
 if [ "$type" = "D" ]
 then
+clear
 echo -e $p "Welcome To In The Backup"
 echo ""
 cd /data/data/com.termux/files
 tar -cvzf /sdcard/buckup-termux.tgz home usr
+echo ""
 echo -e $cyan "DONE"
 read -p "press [Enter] Key to continue..."
 readEnterKey
@@ -375,10 +417,12 @@ fi
 echo ""
 if [ "$type" = "E" ]
 then
+clear
 echo -e $p "Welcome To In Retrieving The Backup"
 echo ""
 cd /data/data/com.termux/files
 tar -xvzf /sdcard/buckup-termux.tgz home usr
+echo ""
 echo -e $cyan "DONE"
 read -p "press [Enter] Key to continue..."
 readEnterKey
@@ -391,6 +435,7 @@ fi
 echo ""
 if [ "$type" = "F" ]
 then
+clear
 echo -e $p "Welcome To In Themes"
 echo ""
 
