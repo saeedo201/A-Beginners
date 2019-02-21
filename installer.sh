@@ -31,15 +31,15 @@ echo ""
 #--------------------------------------------------
 #--------------------------------------------------
 #echo -e "$blue"
-echo "               [A] Installations"
-echo "               [B] Move files to Home"
-echo "               [C] Move files to Sdcard"
-echo "               [D] Create a backup copy"
-echo "               [E] Retrieving the backup version"
-echo "               [F] Themes"
+echo "               [a] Installations"
+echo "               [b] Move files to Home"
+echo "               [c] Move files to Sdcard"
+echo "               [d] Create a backup copy"
+echo "               [e] Retrieving the backup version"
+echo "               [f] Themes"
 echo ""
 read -p " number =======>" type
-if [ "$type" = "A" ]
+if [ "$type" = "a" ]
 then
 clear
 #echo -e "$green "
@@ -244,7 +244,7 @@ echo ""
 echo -e $cyan " Done"
 read -p "press [Enter] Key to continue..."
 readEnterKey
-bash installer.sh && A
+bash installer.sh
 fi
 if [ $Zoal -eq 19 ]
 then
@@ -253,7 +253,7 @@ echo ""
 echo -e $cyan " Done"
 read -p "press [Enter] Key to continue..."
 readEnterKey
-bash installer.sh && A
+bash installer.sh
 fi
 if [ $Zoal -eq 20 ]
 then
@@ -262,7 +262,7 @@ echo ""
 echo -e $cyan " Done"
 read -p "press [Enter] Key to continue..."
 readEnterKey
-bash installer.sh && A
+bash installer.sh
 fi
 if [ $Zoal -eq 21 ]
 then
@@ -271,7 +271,7 @@ echo ""
 echo -e $cyan " Done"
 read -p "press [Enter] Key to continue..."
 readEnterKey
-bash installer.sh && A
+bash installer.sh
 fi
 if [ $Zoal -eq 22 ]
 then
@@ -280,7 +280,7 @@ echo ""
 echo -e $cyan " Done"
 read -p "press [Enter] Key to continue..."
 readEnterKey
-bash installer.sh && A
+bash installer.sh
 fi
 if [ $Zoal -eq 23 ]
 then
@@ -289,7 +289,7 @@ echo ""
 echo -e $cyan " Done"
 read -p "press [Enter] Key to continue..."
 readEnterKey
-bash installer.sh && A
+bash installer.sh
 fi
 if [ $Zoal -eq 24 ]
 then
@@ -298,7 +298,7 @@ echo ""
 echo -e $cyan " Done"
 read -p "press [Enter] Key to continue..."
 readEnterKey
-bash installer.sh && A
+bash installer.sh
 fi
 if [ $Zoal -eq 25 ]
 then
@@ -307,7 +307,7 @@ echo ""
 echo -e $cyan " Done"
 read -p "press [Enter] Key to continue..."
 readEnterKey
-bash installer.sh && A
+bash installer.sh
 fi
 if [ $Zoal -eq 26 ]
 then
@@ -316,7 +316,7 @@ echo ""
 echo -e $cyan " Done"
 read -p "press [Enter] Key to continue..."
 readEnterKey
-bash installer.sh && A
+bash installer.sh
 fi
 if [ $Zoal -eq 27 ]
 then
@@ -325,7 +325,7 @@ echo ""
 echo -e $cyan " Done"
 read -p "press [Enter] Key to continue..."
 readEnterKey
-bash installer.sh && A
+bash installer.sh
 fi
 if [ $Zoal -eq 28 ]
 then
@@ -334,7 +334,7 @@ echo ""
 echo -e $cyan " Done"
 read -p "press [Enter] Key to continue..."
 readEnterKey
-bash installer.sh && A
+bash installer.sh
 fi
 if [ $Zoal -eq 29 ]
 then
@@ -343,7 +343,7 @@ echo ""
 echo -e $cyan " Done"
 read -p "press [Enter] Key to continue..."
 readEnterKey
-bash installer.sh && A
+bash installer.sh
 fi
 if [ $Zoal -eq 30 ]
 then
@@ -352,13 +352,13 @@ echo ""
 echo -e $cyan " Done"
 read -p "press [Enter] Key to continue..."
 readEnterKey
-bash installer.sh && A
+bash installer.sh
 fi
 #------------------------------------
 #------------------------------------
 fi
 #-----------------------------------
-if [ "$type" = "B" ]
+if [ "$type" = "b" ]
 then
 clear
 echo ""
@@ -378,7 +378,7 @@ fi
 #------------------------------------
 #------------------------------------
 #------------------------------------
-if [ "$type" = "C" ]
+if [ "$type" = "c" ]
 then
 clear
 echo -e $cyan   "Now U Can  Move Any Files To Sdcard"
@@ -397,7 +397,7 @@ fi
 #-----------------------------------
 #-----------------------------------
 echo ""
-if [ "$type" = "D" ]
+if [ "$type" = "d" ]
 then
 clear
 echo -e $p "Welcome To In The Backup"
@@ -415,7 +415,7 @@ fi
 #-----------------------------------
 #-----------------------------------
 echo ""
-if [ "$type" = "E" ]
+if [ "$type" = "e" ]
 then
 clear
 echo -e $p "Welcome To In Retrieving The Backup"
@@ -433,7 +433,7 @@ fi
 #------------------------------------
 #------------------------------------
 echo ""
-if [ "$type" = "F" ]
+if [ "$type" = "f" ]
 then
 clear
 echo -e $p "Welcome To In Themes"
